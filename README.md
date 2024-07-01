@@ -13,7 +13,7 @@ This is a personal resume website built with HTML and CSS. The website is design
 
 ## Demo
 
-You can view a live demo of the website [here](#).
+You can view a live demo of the website [here](#https://fazilsourcecode.github.io/RESUME/).
 
 ## Features
 
