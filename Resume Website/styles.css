@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header h1 span {
+    color: #444;
+}
+
+.title {
+    font-size: 18px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.contact, .about, .skills, .education, .experience {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    color: #444;
+}
+
+.contact p, .about p, .skills p, .education p {
+    margin: 0;
+}
+
+.contact p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact i {
+    margin-right: 10px;
+    color: #444;
+}
+
+.contact a {
+    color: #444;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.experience .job {
+    margin-bottom: 10px;
+}
+
+.experience h3 {
+    margin: 0;
+}
+
+.experience ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.experience ul li {
+    padding-left: 20px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.experience ul li::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+}
